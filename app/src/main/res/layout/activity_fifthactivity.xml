@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E27E97"
+    android:padding="10dp"
+    tools:context=".fifthactivity">
+    <Button
+        android:id="@+id/likebutton"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Like"
+        android:textStyle="bold"
+        android:textColor="#E4E4EC"
+        android:textSize="50dp"
+        android:layout_x="300px"
+        android:backgroundTint="#E27E97"
+        android:layout_y="500px"
+        />
+    <Button
+        android:id="@+id/exitbutton"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:textStyle="bold"
+        android:textColor="#E4E4EC"
+        android:textSize="50dp"
+        android:layout_x="300px"
+        android:backgroundTint="#E27E97"
+        android:layout_y="900px"
+        />
+
+
+</AbsoluteLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E27E97"
+    android:padding="20dp"
+    tools:context=".firstactivity">
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:id="@+id/textview10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Email/NO"
+        android:textSize="30dp"
+        android:textColor="#E4E4EC"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_below="@+id/textview10"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/edit1"
+        android:inputType="text"
+        android:textColor="#E4E4EC"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:textCursorDrawable="@null"
+        android:backgroundTint="#E4E4EC"
+        android:textSize="20sp"
+
+
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/edit1"
+        android:id="@+id/textview20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Gender"
+        android:textSize="20sp"
+        android:textColor="#E4E4EC"
+        android:textStyle="bold"
+
+        />
+
+
+    <EditText
+        android:layout_below="@+id/textview20"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/edit2"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#E4E4EC"
+        android:textSize="20sp"
+        android:textColor="#E4E4EC"
+        android:inputType="text"
+        android:textCursorDrawable="@null"
+
+
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/edit2"
+        android:id="@+id/textview30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Age"
+        android:textSize="30dp"
+        android:textColor="#E4E4EC"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_below="@+id/textview30"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/edit3"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#E4E4EC"
+        android:textSize="50dp"
+        android:textColor="#E4E4EC"
+        android:inputType="number"
+        android:textCursorDrawable="@null"
+
+
+        />
+    <Button
+        android:id="@+id/button1"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/edit3"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="LOGIN"
+        android:textColor="#E4E4EC"
+        android:backgroundTint="#E27E97"
+
+        />
+
+
+</RelativeLayout>

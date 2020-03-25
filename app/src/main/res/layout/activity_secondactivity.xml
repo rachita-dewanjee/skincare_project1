@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E27E97"
+    tools:context=".secondactivity">
+    <TableRow
+        android:id="@+id/table1"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:layout_span="2"
+            android:layout_gravity="center"
+
+            android:text="Select Skintype"
+            android:textSize="50dp"
+            android:textColor="#E4E4EC"
+            android:textStyle="bold"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <Button
+
+            android:id="@+id/button1"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="#E27E97"
+            android:text="Dry Skin"
+            android:textColor="#E4E4EC"
+            android:textSize="30dp" />
+        <ImageView
+            android:src="@drawable/realdryskin"
+            android:layout_height="80dp"
+            android:layout_marginTop="50dp"
+            android:scaleType="fitXY"
+            android:layout_width="80dp"
+            />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="#E27E97"
+            android:text="Oily Skin"
+            android:textColor="#E4E4EC"
+            android:textSize="30dp" />
+        <ImageView
+            android:src="@drawable/oilyskin"
+            android:scaleType="fitXY"
+            android:layout_height="80dp"
+            android:layout_marginTop="50dp"
+            android:layout_width="80dp"
+            />
+
+
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/button3"
+            android:text="Combination Skin"
+            android:layout_marginTop="50dp"
+            android:textSize="30dp"
+            android:backgroundTint="#E27E97"
+            android:textColor="#E4E4EC"
+            />
+        <ImageView
+            android:src="@drawable/realcombin"
+            android:scaleType="fitXY"
+
+            android:layout_height="80dp"
+            android:layout_marginTop="50dp"
+            android:layout_width="80dp"
+            />
+
+
+
+    </TableRow>
+
+
+
+
+
+
+
+
+
+
+
+</TableLayout>

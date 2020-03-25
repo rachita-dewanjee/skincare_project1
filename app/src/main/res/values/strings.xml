@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">skincare project</string>
+    <string name="dry">A feeling of skin tightness, especially after showering, bathing or swimming,Skin that feels and looks rough,Itching,Slight to severe flaking, scaling or peeling,Fine lines or cracks,Gray, ashy skin,Redness
+Deep cr</string>
+    <string name="oily"></string>
+    <string name="combination"></string>
+</resources>
